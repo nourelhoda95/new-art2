@@ -1,14 +1,14 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
-import { CheckCircle2 } from 'lucide-react';
+import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { CheckCircle2 } from "lucide-react";
 
 export function About() {
   const features = [
-    'سنوات من الخبرة في المجال',
-    'تقنيات طباعة حديثة ومتطورة',
-    'سرعة في تنفيذ الطلبات',
-    'ضمان جودة احترافية',
-    'أسعار تنافسية',
-    'دعم عملاء مخصص',
+    "سنوات من الخبرة في المجال",
+    "تقنيات طباعة حديثة ومتطورة",
+    "سرعة في تنفيذ الطلبات",
+    "ضمان جودة احترافية",
+    "أسعار تنافسية",
+    "دعم عملاء مخصص",
   ];
 
   return (
@@ -18,22 +18,30 @@ export function About() {
           {/* Content */}
           <div>
             <div className="inline-block px-4 py-2 bg-orange-500/10 border border-orange-500/20 rounded-full mb-6">
-              <span className="text-orange-600 text-sm font-semibold">من نحن</span>
+              <span className="text-orange-600 text-sm font-semibold">
+                من نحن
+              </span>
             </div>
-            
+
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-             رحلتنا في عالم الطباعة الإبداعية
+              رحلتنا في عالم الطباعة الإبداعية
             </h2>
-            
+
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              At <span className="font-semibold text-gray-900">نيو ارت</span>, بنقدّم حلول طباعة عالية الجودة تشمل الطباعة، الاستيكرات، البنرات، والمواد الدعائية، بخدمة سريعة ونتائج دقيقة.
-بفضل خبرتنا لسنوات واعتمادنا على أحدث التقنيات، نضمن تنفيذًا نظيفًا واحترافيًا يساعد الشركات على إبراز علامتها التجارية بثقة وأناقة.
+              At <span className="font-semibold text-gray-900">نيو ارت</span>,
+              بنقدّم حلول طباعة عالية الجودة تشمل الطباعة، الاستيكرات، البنرات،
+              والمواد الدعائية، بخدمة سريعة ونتائج دقيقة. بفضل خبرتنا لسنوات
+              واعتمادنا على أحدث التقنيات، نضمن تنفيذًا نظيفًا واحترافيًا يساعد
+              الشركات على إبراز علامتها التجارية بثقة وأناقة.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <CheckCircle2 className="text-orange-600 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle2
+                    className="text-orange-600 flex-shrink-0 mt-1"
+                    size={20}
+                  />
                   <span className="text-gray-700">{feature}</span>
                 </div>
               ))}
@@ -84,7 +92,8 @@ export function About() {
             </div>
 
             {/* Decorative Element */}
-            <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-orange-200/30 to-orange-400/30 rounded-full blur-3xl"></div>
+            <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  lg:w-96 lg:h-96  !max-w-full bg-gradient-to-br from-orange-200/30 to-orange-400/30 rounded-full blur-3xl"></div>
+
           </div>
         </div>
       </div>

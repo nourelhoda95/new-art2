@@ -2,7 +2,7 @@ import { Menu, X } from 'lucide-react';
 import { link } from "react-router-dom"
 
 import { useState } from 'react';
-import picture from './figma/assets/logo.2.png';
+// import picture from './figma/ImageWithFallback';
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 const [open , setOpen ] =useState(false);
@@ -17,6 +17,7 @@ const [open , setOpen ] =useState(false);
 
   return ( 
   <>
+  
     <header className="fixed top-0 left-0 right-0 bg-white backdrop-blur-sm z-50 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center mx-auto h-16">
