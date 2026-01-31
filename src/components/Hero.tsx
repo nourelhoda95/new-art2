@@ -29,9 +29,8 @@ export function Hero() {
         
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight text-center">
-        نيو ارت للطباعة والدعاية
-          <br/>والاعلان
-          </h1>
+        نيوأرت للطباعة والدعاية
+          <br/>والإعلان        و</h1>
           
           <p className="text-xl  mb-8 leading-relaxed text-center text-orange-600">
  .جعلناها سهلة
