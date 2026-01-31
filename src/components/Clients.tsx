@@ -1,18 +1,24 @@
+import React from "react";
+import picture from './figma/assets/picture.png';
+
+
 export function Clients() {
+
   const clients = [
-    { name: 'Incora', text: 'Incora' },
-    { name: 'Gold\'s Gym', text: 'Gold\'s Gym' },
-    { name: 'VGOD', text: 'VGOD' },
-    { name: 'SIPES', text: 'SIPES' },
-    { name: 'Royal Maadi Hotel', text: 'Royal Maadi' },
-    { name: 'Shelter Investment Group', text: 'Shelter' },
-    { name: 'Welfare', text: 'Welfare' },
-    { name: 'Metropolitan Pre-School', text: 'Metropolitan' },
-    { name: 'Polyee Plaza', text: 'Polyee Plaza' },
-    { name: 'DWM', text: '.DWM' },
-    { name: 'HERO', text: 'HERO' },
-    { name: 'Uber', text: 'Uber' },
-    { name: 'DARA\'s Ice Cream', text: 'DARA\'s' },
+
+   { name: 'جمعية رسالة', img: picture },
+  // { name: 'سايبس', img: '/images/clients/cybes.png' },
+  // { name: 'اليت', img: '/images/clients/elite.png' },
+  // { name: 'سماش', img: '/images/clients/smash.png' },
+  // { name: 'جولدز جيم', img: '/images/clients/golds-gym.png' },
+  // { name: 'برومك', img: '/images/clients/promac.png' },
+  // { name: 'سول اند مور', img: '/images/clients/soul-more.png' },
+  // { name: 'بلاك لوتس', img: '/images/clients/black-lotus.png' },
+  // { name: 'سيبل', img: '/images/clients/cibel.png' },
+  // { name: 'فوسفات مصر', img: '/images/clients/phosphate.png' },
+  // { name: 'HERO', img: '/images/clients/hero.png' },
+  // { name: 'Uber', img: '/images/clients/uber.png' },
+
   ];
 
   return (
@@ -35,10 +41,10 @@ export function Clients() {
             <div
               key={index}
               className="bg-white rounded-xl p-8 flex items-center justify-center hover:shadow-lg transition-shadow duration-300 border border-gray-200 min-h-[140px]"
-            >
+            > 
               <div className="text-center">
                 <div className="font-bold text-2xl text-gray-800">
-                  {client.text}
+                  {client.img}
                 </div>
               </div>
             </div>
